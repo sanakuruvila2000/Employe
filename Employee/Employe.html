@@ -1,0 +1,86 @@
+<html>
+
+	<head>
+		<title>sjc </title>
+		<meta charset="utf-8" />
+		<script src="JS/f.js">
+		</script>
+	</head>
+	
+	<body>
+	
+		<h1>
+			<center>EMPLOYEE REGISTRATION FORM</center>
+		</h1>
+		<table cellspacing="2" align="center" cellpadding="8" border="0">
+	<form name="f2" method="GET" action="#" onsubmit="return nameValidation();">
+				
+				<tr>
+					<td><label><b> Firstname</b> </label> </td>
+					<td><input type="text" id="Firstname" placeholder="eg:Andrea"  required>
+						<label id="error2" ></label></td>
+				</tr>				
+
+				<tr>
+					<td><label><b> Middlename</b> </label> </td>
+					<td><input type="text" name="Middlename" placeholder="eg:Rose" required></td>
+				</tr>
+				
+				<tr>
+					<td><label><b> Lastname</b> </label></td>
+					<td><input type="text" name="Lastname" placeholder="eg:Robin" required></td>
+				</tr>
+				
+				
+				<tr>
+					<td><label><b>Email</b></label></td>
+					<td><input type="email"  id="mail" aria-describedby="emailHelp" placeholder="mail@abc.com" required>
+						<label id="error1"></label></td>
+				</tr>
+				
+				
+				<tr>
+					<td><label><b>Address</b> </label></td>
+					<td><textarea cols="25" rows="5" value="address" required></textarea> </td>
+				</tr>
+				
+				<tr>
+					<td><label><b> Gender</b> </label></td>
+					<td><input type="radio" name="gender" value="male" required> Male
+						<input type="radio" name="gender" value="female" required> Female
+						<input type="radio" name="gender" value="other" required> Other
+					</td>
+				</tr>
+				<tr>
+					<td><label><b>Date Of Birth</b></label></td>
+					<td><input type="date" required></td>
+				</tr>
+				
+				<tr>
+					<td><label><b>Phone</b></label></td>
+					<td>
+						<input type="tel" id="num" placeholder="XXXXXXXXXX" maxlength="10" required>
+						<label id="error3"></label</td>
+					
+				</tr>
+
+				<tr>
+					<td><label><b> Nationality </b> </label> </td>
+					<td><input type="text" id="Nationality"   required></td>
+				</tr>
+
+				<tr>
+					<td><label><b> Year of Experience </b> </label> </td>
+					<td><input type="number" id="Number"   required></td>
+				</tr>
+				<tr>
+					<td><button type="reset" >Reset</button></td>
+					<td><button type="submit"  >Submit</button></td>
+				</tr>
+	
+			</form>
+		</table>
+	</body>
+	
+	</html>
+
